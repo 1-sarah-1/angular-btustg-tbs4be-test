@@ -10,7 +10,7 @@ import { DragDropModule } from '@angular/cdk/drag-drop';
 import { RouterModule } from '@angular/router';
 
 @NgModule({
-  declarations: [SelectOptionGroupsMultiSelectionExample],
+  declarations: [Test],
   imports: [
     BrowserAnimationsModule,
     BrowserModule,
@@ -22,6 +22,6 @@ import { RouterModule } from '@angular/router';
     SbbModule,
   ],
   providers: [],
-  bootstrap: [SelectOptionGroupsMultiSelectionExample],
+  bootstrap: [Test],
 })
 export class AppModule {}
